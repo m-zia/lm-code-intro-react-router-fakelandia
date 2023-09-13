@@ -3,25 +3,15 @@ import Home from './components/home';
 import Misdemeanours from './components/misdemeanour';
 import Confession from './components/confession';
 import NotFound from './components/NotFound';
-
+import Header from './components/header';
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <nav>
-          <ul>
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            <li>
-              <Link to="/misdemeanours">Misdemeanours</Link>
-            </li>
-            <li>
-              <Link to="/confession">Confession</Link>
-            </li>
-          </ul>
-        </nav>
+
+      <Header />
+        
 
         <Routes>
           <Route path="/" element={<Home />} />
