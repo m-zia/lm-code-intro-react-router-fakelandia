@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/home';
-import Misdemeanours from './components/misdemeanour';
+import { Misdemeanours } from './components/misdemeanour';
 import Confession from './components/confession';
 import NotFound from './components/NotFound';
 import Header from './components/header';
